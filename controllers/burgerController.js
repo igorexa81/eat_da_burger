@@ -35,6 +35,18 @@ router.post("/burgers/:id", function(req, res){
     });
 });
 
+router.post("/burgers/remake/:id", function(req, res){
+    var condition = "id = " + req.params.id;
+
+    console.log("condition", condition);
+
+    burger.update({
+        devoured: 0
+    }, condition, function(){
+        res.redirect("/");
+    });
+});
+
 router.put("burgers/:id", function(req, res){
     console.log("updating...");
     var condition = "id = " + req.params.id;

@@ -19,11 +19,17 @@
             <div class="col s6">
                 {{#each burger}}
                 {{#if this.devoured}}
+                <div style="display:flex;align-items:center;">
                 <div class='burgerEaten'>
-                    <div>
+                        <div>
                         {{this.id}}. {{this.burger_name}}
                     </div>
+                    
                 </div>
+                    <form action="/burgers/remake/{{this.id}}" method="POST">
+                        <button style="width:100%;" type="submit" class="button btn-secondary" id="{{this.id}}">Re-Make</button>
+                    </form>
+                    </div>
                 {{/if}}
                 {{/each}}
             </div>
