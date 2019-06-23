@@ -1,0 +1,145 @@
+body{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+	flex-direction: column;
+	background-image:url("/assets/images/rest.jpg")
+
+}
+
+
+
+h1 {
+	text-align: center;
+	font-family: 'Mali', cursive;
+	font-size: 65px;
+	position: relative;
+	
+	color:#ffffffA0;
+	}
+	
+.container{
+	z-index: 1;
+	overflow: scroll;
+}
+	.burgerEaten {
+	font-family: 'Pacifico', cursive;
+	filter:alpha(opacity=0.5);
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	width: 20%;
+	border-radius: 25px;
+    margin: 10px;
+	margin-bottom: 40px;
+	margin-left: 500px;
+	padding: 10px;
+	background-color: #ffd1c9A0;
+	
+	}
+	
+	.field{
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	width: 20%;
+	border-radius: 40px;
+	padding: 10px;
+	background-color: #FFC04C;
+	border:none;
+	margin-bottom: 1%
+	
+
+	}
+	
+	
+	
+	h2 {
+	text-align: center;
+	font-family: 'Mali', cursive;
+	font-size: 40px;
+	margin: 50px;
+	}
+	
+	
+	 #burger{
+	margin-left: 30%;
+	margin-top: 20px;
+	margin-left: -1px;
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	font-size: 20px;
+	font-size: 20px;
+	
+	border-radius: 25px;
+	width: 100%;
+	padding: 10px;
+	background-color: #FFC04C;
+	border: none;
+	position: relative;
+	top: -60px;
+	
+	} 
+	 
+	.text{
+		margin-left: -0.1%;
+		font-family: 'Pacifico', cursive;
+		font-weight: normal;
+		font-size: 40px;
+		font-weight: normal;
+		position:relative;
+		top: -30px;
+		margin:25px;
+		color:  	#DAA520;
+	} 
+
+	.button{
+		margin-left: 10%;
+		font-family: 'Pacifico', cursive;
+		font-weight: normal;
+		font-size: 20px;
+		margin:0;
+		padding:5px;
+		border: none;
+		width:10%;
+		background-color:#F0E68CA0;
+	}
+
+	.btn {
+		font-family: 'Pacifico', cursive;
+		font-weight: normal;
+		font-size: 20px;
+		background-color:#DAA520A0;
+		color:black;
+		
+
+		width: 20%;
+		margin:0;
+		padding:5px;
+		border: none;
+		margin-left: 390px;
+		position: relative;
+		top: -40px;
+		overflow: scroll;
+	}
+
+	#div_submit{
+		
+	overflow: scroll;
+	}
+
+
+
+	footer {
+		padding: 10px 0;
+		clear: both;
+		font-size: 15px;
+		color: #fff;
+		text-align: center;
+		height: 10px;
+	  }
+	  
+	  
+	  
